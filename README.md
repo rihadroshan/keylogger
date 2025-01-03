@@ -29,6 +29,7 @@ This Python script implements a basic keylogger using the `pynput` and `pywin32`
 
     ```bash
     pip install -r requirements.txt
+    
     ```
 
 ## Usage
