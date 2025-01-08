@@ -1,5 +1,3 @@
-# Keylogger
-
 This Python script implements a basic keylogger using the `pynput` and `pywin32` libraries. It captures keystrokes and logs them to a specified file. The console window is hidden to run the script in the background without user interface interruptions. Note that this script is designed specifically for Windows.
 
 ## Features
