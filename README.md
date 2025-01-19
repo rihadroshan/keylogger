@@ -15,7 +15,7 @@
 1. **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/rihadroshan/PRODIGY_CS_04.git
+    git clone https://github.com/rihadroshan/keylogger.git
     cd keylogger
     ```
 
