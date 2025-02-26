@@ -1,54 +1,44 @@
+# Keylogger
+
+## Overview
+This is a simple keylogger script written in Python that logs keystrokes to a file, automatically installs required packages, and hides the console window during execution. It is intended strictly for educational and ethical use.  
+
 ## Features
-
-- **Keystroke Logging**: Captures and logs keystrokes, including special keys like Enter and Backspace.
-- **Console Hiding**: Hides the console window to avoid disrupting the user's experience.
-- **Automatic Package Installation**: Installs necessary packages if they are not already installed.
-
-## Requirements
-
-- Python 3.x
-- `pynput`
-- `pywin32`
+- **Keystroke Logging:** Captures all keystrokes, including special keys like Enter, Backspace, Tab, and Escape.  
+- **Timestamped Logs:** Each keypress is recorded with a timestamp for better tracking.  
+- **Console Hiding:** Hides the console window once the script starts running.  
+- **Automatic Dependency Installation:** Checks for and installs missing packages (`pynput` and `pywin32`).  
 
 ## Installation
 
-1. **Clone the Repository**:
-
-    ```bash
-    git clone https://github.com/rihadroshan/keylogger.git
-    cd keylogger
-    ```
-
-2. **Install Required Packages**:
-
-    The script automatically installs the necessary packages if they are not already installed. You can also manually install them using pip:
-
-    ```bash
-    pip install -r requirements.txt
-    
-    ```
+**Clone the repository:**  
+   ```bash
+   git clone https://github.com/rihadroshan/keylogger.git
+   cd keylogger
+   ```
 
 ## Usage
 
-1. **Modify the Script**:
+**Run the keylogger:**  
+   Execute the script:  
+   ```bash
+   python keylogger.py
+   ```
 
-    Edit the `keylog_file` path in the script to specify where the keystrokes will be logged. Ensure the path is accessible and writable by the script.
+## Log Format
 
-    ```python
-    keylog_file = r'C:\path\to\your\keylog.txt'
-    ```
-
-2. **Run the Script**:
-
-    Execute the script using Python:
-
-    ```bash
-    python3 keylogger.py
-    ```
-
-    The script will log keystrokes to the specified file and hide the console window.
-
-## Notes
-
-- **Ethical Use**: This script is for educational purposes only. Unauthorized use of keyloggers is illegal and unethical. Always obtain explicit consent before monitoring keyboard activity.
-- **Security**: Be cautious about where and how you use this script. Protect sensitive information and ensure it is used responsibly.
+Keystrokes are logged with timestamps like this:  
+```
+[2025-02-25 14:05:32] H  
+[2025-02-25 14:05:33] e  
+[2025-02-25 14:05:34] l  
+[2025-02-25 14:05:35] l  
+[2025-02-25 14:05:36] o  
+[2025-02-25 14:05:37] <SPACE>  
+[2025-02-25 14:05:38] W  
+[2025-02-25 14:05:39] o  
+[2025-02-25 14:05:40] r  
+[2025-02-25 14:05:41] l  
+[2025-02-25 14:05:42] d  
+[2025-02-25 14:05:43] <ENTER>  
+```
