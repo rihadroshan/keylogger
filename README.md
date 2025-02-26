@@ -1,6 +1,5 @@
 # Keylogger
 
-## Overview
 This is a simple keylogger script written in Python that logs keystrokes to a file, automatically installs required packages, and hides the console window during execution. It is intended strictly for educational and ethical use.  
 
 ## Features
