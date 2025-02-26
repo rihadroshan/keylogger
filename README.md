@@ -19,7 +19,7 @@ This is a simple keylogger script written in Python that logs keystrokes to a fi
 ## Usage
 
 **Run the keylogger:**  
-   Execute the script:  
+
    ```bash
    python keylogger.py
    ```
