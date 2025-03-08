@@ -41,3 +41,6 @@ Keystrokes are logged with timestamps like this:
 [2025-02-25 14:05:42] d  
 [2025-02-25 14:05:43] <ENTER>  
 ```
+## Disclaimer
+
+Use it responsibly and only on networks you own or have permission to test. 
