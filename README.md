@@ -43,4 +43,4 @@ Keystrokes are logged with timestamps like this:
 ```
 ## Disclaimer
 
-Use it responsibly and only on networks you own or have permission to test. 
+Use it responsibly and only on networks you own or have permission to test. The author is not responsible for any misuse or damage caused by this tool.
